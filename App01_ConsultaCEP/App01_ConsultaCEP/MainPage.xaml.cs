@@ -18,7 +18,14 @@ namespace App01_ConsultaCEP
 			BOTAO.Clicked += BuscarCEP;
 		}
 
-		private void BuscarCEP(object sender, EventArgs e)
+
+
+        //=======================================================================================================
+        // BuscarCEP
+        //-------------------------------------------------------------------------------------------------------
+        // Buscap pelo CEP indicado. Acao do Botao Buscar_CEP.
+        //=======================================================================================================
+        private void BuscarCEP(object sender, EventArgs e)
 		{
             //TODO - Logica do progama
             string cep = CEP.Text.Trim();
